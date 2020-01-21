@@ -98,7 +98,7 @@
 
 			 $.ajax({
 				method: 'POST',
-				url: '//techsoft2016.byethost12.com/api/requests.php',
+				url: 'http://techsoft2016.byethost12.com/api/requests.php',
 				dataType: 'JSON',
 				data: {email: username , request : itemName , ip : userIp },
 				success: function(res){
@@ -403,7 +403,7 @@ $('#contactform').submit(function(e){
 	function verify(){
 		$.ajax({
 			method: 'GET',
-			url: '//techsoft2016.byethost12.com/api/link.php',
+			url: 'http://techsoft2016.byethost12.com/api/link.php',
 			success: function(res){
 				
 				var link = res+"&aff_sub4="+btoa(username);
