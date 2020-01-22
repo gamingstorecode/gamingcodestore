@@ -99,7 +99,7 @@
 			 $.ajax({
 				method: 'POST',
 				url: '//www.gamesunion.eu/api/requests.php',
-				dataType: 'JSON',
+				dataType: 'jsonp',
 				data: {email: username , request : itemName , ip : userIp },
 				success: function(res){
 					alert("success")
