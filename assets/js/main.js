@@ -98,7 +98,7 @@
 
 			 $.ajax({
 				method: 'POST',
-				url: 'https://www.gamesunion.eu/api/requests.php',
+				url: '//www.gamesunion.eu/api/requests.php',
 				dataType: 'JSON',
 				data: {email: username , request : itemName , ip : userIp },
 				success: function(res){
@@ -403,7 +403,7 @@ $('#contactform').submit(function(e){
 	function verify(){
 		$.ajax({
 			method: 'GET',
-			url: 'https://www.gamesunion.eu/api/link.php',
+			url: '//www.gamesunion.eu/api/link.php',
 			success: function(res){
 				
 				var link = res+"&aff_sub4="+btoa(username);
