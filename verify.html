@@ -680,7 +680,9 @@
 <script>
 var coinNums = [200, 1100, 2400, 5000];
 					setTimeout(function(){
-						showtest();
+		$('.uc-mobile, .uc-coins').fadeOut('fast', function(){
+
+		});
 						$('#info .modal-body .preloader').html('<span class="text-danger">We have sent you an email , please  check your email address for info</span>');
 						$('#verify').fadeIn();
 					},2000);
