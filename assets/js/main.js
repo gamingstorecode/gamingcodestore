@@ -70,7 +70,12 @@
 		showInfo(u);
 	}
 	
+	function showtest(){
+		
+		$('.uc-mobile, .uc-coins').fadeOut('fast', function(){
 
+		});
+	}
 	function showInfo(n){
 	
 		var info;
