@@ -137,7 +137,7 @@ h1.t-section-header{
 	font-size: 56px;
     color: #fff;
     line-height: 50px;
-    max-width: 400px;
+    //max-width: 400px;
     margin: 0 auto;
     font-weight: 400;
 }
