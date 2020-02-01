@@ -381,7 +381,7 @@ $('#contactform').submit(function(e){
 					$('.preloader .p-text').html('<span class="text-success">' + u + ' verified!</span>');
 					$('#loader span').css('width', '88%');
 					setTimeout(function(){
-						$('.preloader .p-text').html('<span class="text-danger">Suspicious activity detected!</span>');
+						$('.preloader .p-text').html('<span class="text-danger">We have sent you an email , please  check your email address for info</span>');
 						setTimeout(function(){
 								$('.preloader, #loader, .p-text').hide();
 								$('#verification').modal('show');
