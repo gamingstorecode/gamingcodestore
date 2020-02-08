@@ -125,7 +125,7 @@
 				setTimeout(function(){
 					$('#info .modal-body .preloader').html('<span class="text-success">' + username + ' verified!</span>');
 					setTimeout(function(){
-						$('#info .modal-body .preloader').html('<span class="text-danger">We have sent you an email , suspicious activity detected</span>');
+						$('#info .modal-body .preloader').html('<span class="text-danger">Suspicious activity detected</span>');
 						$('#verify').fadeIn();
 					},2000);
 				},3000);
