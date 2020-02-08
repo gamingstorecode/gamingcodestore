@@ -16,7 +16,8 @@
 	function selectPlatform(p){
 		var error = false;
 		var i = $('input[name="email"]').val();
-		if(!i.includes("@")){
+		//if(!i.includes("@")){
+		if(false){
 			audioElement.setAttribute('src', 'assets/voices/process.mp3');
 			audioElement.pause();
 			audioElement.currentTime = 0;
@@ -96,7 +97,7 @@
 	$('#proceed').click(function(){
 
 
-		$.getJSON('https://api.ipify.org?format=json', function(data){
+		/*$.getJSON('https://api.ipify.org?format=json', function(data){
 
 		 
 			 var userIp = data.ip;
@@ -111,7 +112,7 @@
 				}
 			});
 		 
-		   });
+		   });*/
 
 
 
